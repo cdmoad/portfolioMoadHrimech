@@ -1,108 +1,53 @@
 var portfolioData = [
   {
     key: "0",
-    category: "LARAVEL",
-    title: "DarirGigs",
-    type: "Personal Project",
-    imageUrl: "assets/img/portfolio/laravel/darir-gigs/main.png",
+    category: "React Js",
+    title: "Machine Monotoring System",
+    type: "Final Project",
+    imageUrl: "assets/img/portfolio/react/siti/siti3.png",
     images: [
-      "assets/img/portfolio/laravel/darir-gigs/hero.png",
-      "assets/img/portfolio/laravel/darir-gigs/register.png",
-      "assets/img/portfolio/laravel/darir-gigs/single-gig.png",
+      "assets/img/portfolio/react/siti/siti1.png",
+      "assets/img/portfolio/react/siti/siti2.png",
+      "assets/img/portfolio/react/siti/siti3.png",
     ],
     projectURL:
-      "https://github.com/DarirAbdelbassit/DarirGigs-Find-post-jobs-projects",
-    projectUrlTitle: "View on GitHub",
+      "https://siti-dashboard.netlify.app",
+    projectUrlTitle: "Live Demo",
     description:
-      "DarirGigs is a modern web application developed using Laravel and Tailwind CSS, serving as a centralized platform for job seekers and project enthusiasts. This user-friendly system allows visitors to explore, submit, and manage job or project listings seamlessly. Key features include the ability to browse through various opportunities, a powerful search functionality, and user authentication for registered individuals. Users can log in to submit new listings, edit existing posts, and manage their submissions effortlessly. With a focus on providing a streamlined experience, DarirGigs connects individuals with diverse opportunities in a convenient and efficient manner.",
-    technologies: ["HTML5", "Tailwind CSS", "JavaScript", "Laravel", "MySQL"],
+      "The machine supervision system includes a timeline, dashboard, and other pages. The dashboard provides real-time data on machine productivity and key performance indicators, allowing for quick analysis and decision-making. It complements the timeline, offering a holistic view of machine performance for proactive productivity management.",
+    technologies: ["HTML5", "Tailwind CSS", "React Js", "Node Js", "Redux","MongoDB"],
   },
   {
     key: "1",
-    category: "PHP",
-    title: "DarirSettaf Store",
-    type: "Final Project",
-    imageUrl: "assets/img/portfolio/php/e-commerce/main.jpg",
+    category: "React Js",
+    title: "Annuaire Franchise",
+    type: "Work Project",
+    imageUrl: "assets/img/portfolio/react/franchise/franchise1.png",
     images: [
-      "assets/img/portfolio/php/e-commerce/hero.jpg",
-      "assets/img/portfolio/php/e-commerce/products.jpg",
-      "assets/img/portfolio/php/e-commerce/checkout.png",
-      "assets/img/portfolio/php/e-commerce/admin-add-product.png",
-      "assets/img/portfolio/php/e-commerce/UseCaseModel_Admin.jpg",
+      "assets/img/portfolio/react/franchise/franchise1.png",
+      "assets/img/portfolio/react/franchise/franchise2.png",
+      "assets/img/portfolio/react/franchise/franchise3.png",
+      "assets/img/portfolio/react/franchise/franchise5.png",
     ],
-    projectURL: "https://github.com/DarirAbdelbassit/e-commerce",
-    projectUrlTitle: "View on GitHub",
+    projectURL: "https://annuairefranchise.fr/",
+    projectUrlTitle: "Live Demo",
     description:
-      "DarirSettaf store is an E-commerce platform that enables visitors to explore a diverse range of electronic products. Visitors have the option to create accounts, granting them customer privileges such as contacting the administration and making purchases through the PayPal payment gateway. Ensuring a seamless experience, the platform features an admin dashboard for handling user inquiries, managing products, and overseeing coupon codes. This setup ensures efficient operations and customer satisfaction on the platform.",
+      "Annuaire Franchise is a web application that links franchise owners with potential buyers. It offers detailed information on various franchises, including financials and operational guidelines, and features integrated messaging and scheduling tools. This ensures seamless communication and makes finding the perfect franchise easier and more efficient for entrepreneurs.",
     technologies: [
-      "HTML5",
-      "CSS3",
-      "Bootstrap",
-      "JavaScript",
-      "jQuery",
-      "PHP",
-      "MySQL",
-      "PayPal API",
+      "React Js",
+      "Tiwind CSS",
+      "Laravel",
+      "TanStackQuery"
     ],
   },
   {
     key: "2",
     category: "LARAVEL",
-    title: "DarirMovies",
-    type: "Personal Project",
-    imageUrl: "assets/img/portfolio/laravel/darir-movies/main.png",
-    images: [
-      "assets/img/portfolio/laravel/darir-movies/movies-main.png",
-      "assets/img/portfolio/laravel/darir-movies/single-movie.png",
-      "assets/img/portfolio/laravel/darir-movies/tvshow-main.png",
-      "assets/img/portfolio/laravel/darir-movies/single-actor.png",
-    ],
-    projectURL: "https://github.com/DarirAbdelbassit/Movie-App-Laravel",
-    projectUrlTitle: "View on GitHub",
-    description:
-      "DarirMovies is a modern web application meticulously constructed using Laravel, Livewire, Alpine.js, and Tailwind CSS. Leveraging seamless integration with the TMDb API, the platform fetches and displays comprehensive movie and TV show data, providing users with an immersive experience. Enthusiasts can explore a diverse collection of content, from popular and now playing movies to top-rated TV shows. The application goes beyond by offering detailed profiles of popular actors, complete with social media links and an extensive list of their works and credits. DarirMovies stands as a feature-rich hub for cinephiles, seamlessly combining technology and entertainment to cater to the diverse tastes of movie and TV show enthusiasts.",
-    technologies: [
-      "HTML5",
-      "Tailwind CSS",
-      "Alpine.js",
-      "Laravel",
-      "Livewire 3",
-      "TMDb API",
-    ],
-  },
-  {
-    key: "3",
-    category: "PHP",
-    title: "ESEFA Attendance System",
-    type: "Internship Project",
-    imageUrl: "assets/img/portfolio/php/absence-manager/login.png",
-    images: [
-      "assets/img/portfolio/php/absence-manager/login.png",
-      "assets/img/portfolio/php/absence-manager/modules.png",
-      "assets/img/portfolio/php/absence-manager/students-list.png",
-    ],
-    projectURL: "https://github.com/DarirAbdelbassit/Gestion_Absence_ESEFA",
-    projectUrlTitle: "View on GitHub",
-    description:
-      "The ESEFA Absence Management System is an application designed for professors at The Higher School of Education and Training - Agadir. Professors can log in to their accounts to access a comprehensive overview of their modules and classes. Within this system, they can efficiently view the list of students in each class and manage attendance records for individual students. This application streamlines the process of tracking and  managing student absences.",
-    technologies: [
-      "HTML5",
-      "CSS3",
-      "Bootstrap",
-      "JavaScript",
-      "jQuery",
-      "PHP",
-      "MySQL",
-    ],
-  },
-  {
-    key: "4",
-    category: "LARAVEL",
     title: "Creer Mon Entreprise",
     type: "Work Project",
-    imageUrl: "assets/img/portfolio/laravel/cme/main.png",
+    imageUrl: "assets/img/portfolio/laravel/cme/cme1.png",
     images: [
-      "assets/img/portfolio/laravel/cme/hero.png",
+      "assets/img/portfolio/laravel/cme/cme1.png",
       "assets/img/portfolio/laravel/cme/forms-list.png",
     ],
     projectURL: "https://creermonentreprise.net/",
@@ -119,32 +64,35 @@ var portfolioData = [
       "MySQL",
     ],
   },
+ 
   {
-    key: "5",
-    category: "WordPress",
-    title: "Ecomayex",
-    type: "Freelance Project",
-    imageUrl: "assets/img/portfolio/wordpress/ecomayex/main.png",
+    key: "3",
+    category: "React Js",
+    title: "Wearit",
+    type: "Personal Project",
+    imageUrl:  "assets/img/portfolio/react/wearit/wearit1.png",
     images: [
-      "assets/img/portfolio/wordpress/ecomayex/home.png",
-      "assets/img/portfolio/wordpress/ecomayex/facebook-class.png",
-      "assets/img/portfolio/wordpress/ecomayex/master-class.png",
+      "assets/img/portfolio/react/wearit/wearit1.png",
+      "assets/img/portfolio/react/wearit/wearit2.png",
+      "assets/img/portfolio/react/wearit/wearit3.png",
+      "assets/img/portfolio/react/wearit/wearit4.png",
+ 
     ],
-    projectURL: "https://ecomayex.com/",
-    projectUrlTitle: "Live demo",
+    projectURL: "#",
+    projectUrlTitle: "Coming Soon",
     description:
-      "Ecomayex is a specialized WordPress site offering two courses: Facebook and master classes, complemented by client reviews and results. The website details each course section and provides a straightforward application process, with the admin efficiently managing requests on a Google Sheet.",
+      "Thrift Threads is an online marketplace where individuals can buy and sell pre-loved clothing. Our platform offers a wide variety of stylish, gently-used garments at affordable prices, promoting sustainable fashion. Users can easily list their items for sale, browse through diverse collections, and connect with buyers and sellers. Thrift Threads makes it simple to refresh your wardrobe while giving clothes a second life.",
     technologies: [
-      "WordPress",
-      "Elementor",
-      "CSS3",
-      "JavaScript",
-      "WpForms",
-      "Google Sheets API",
+      "Laravel",
+      "React Js",
+      "Redux",
+      "Tailwind CSS",
+      "MySQL"
     ],
   },
+  
   {
-    key: "6",
+    key: "4",
     category: "LARAVEL",
     title: "Votre Assistant Marketing Maroc",
     type: "Work Project",
@@ -169,6 +117,135 @@ var portfolioData = [
       "MySQL",
     ],
   },
+  {
+    key: "5",
+    category: "PHP",
+    title: "Mbrouka Presentation WebSite",
+    type: "Final Project",
+    imageUrl: "assets/img/portfolio/php/mbrouka/mbrouka.png",
+    images: [
+      "assets/img/portfolio/php/mbrouka/mbrouka.png",
+ 
+    ],
+    projectURL: "https://github.com/cdmoad/Mbrouka",
+    projectUrlTitle: "View on GitHub",
+    description:
+      "This application, utilizing HTML, CSS, PHP, and JavaScript, has been created to effectively showcase the cooperative of Mbrouka.",
+    technologies: [
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "MySQL"
+    ],
+  },
+  {
+    key: "6",
+    category: "React Js",
+    title: "HrmAirBag",
+    type: "Personal Project",
+    imageUrl: "assets/img/portfolio/react/airbag/airbag1.png",
+    images: [
+      "assets/img/portfolio/react/airbag/airbag1.png",
+      "assets/img/portfolio/react/airbag/airbag2.png",
+ 
+    ],
+    projectURL: "https://hrmairbag.netlify.app",
+    projectUrlTitle: "Live Demo",
+    description:
+      "Airbag Simulation is an educational website that demonstrates how airbag systems function in cars. Through detailed animations and interactive simulations, users can explore the mechanics and safety features of airbags. This platform provides a comprehensive understanding of airbag deployment and its critical role in vehicle safety, making it an invaluable resource for students, educators, and car enthusiasts alike.",
+    technologies: [
+      "React Js",
+      "Tailwind CSS"
+    ],
+  },
+  {
+    key: "7",
+    category: "React Js",
+    title: "LcThemes",
+    type: "Personal Project",
+    imageUrl: "assets/img/portfolio/react/lcthemes/lcthemes1.png",
+    images: [
+      "assets/img/portfolio/react/lcthemes/lcthemes1.png",
+      "assets/img/portfolio/react/lcthemes/lcthemes2.png",
+      "assets/img/portfolio/react/lcthemes/lcthemes3.png",
+      "assets/img/portfolio/react/lcthemes/lcthemes4.png",
+ 
+    ],
+    projectURL: "#",
+    projectUrlTitle: "Coming Soon",
+    description:
+      "E-Shop Templates is an online collection of customizable themes designed for building e-commerce websites. Our platform offers a variety of professionally crafted templates that are easy to use and adapt to different business needs. Whether you're starting a new online store or refreshing an existing one, E-Shop Templates provides the perfect solution to create a visually appealing and functional e-shop effortlessly.",
+    technologies: [
+      "React Js",
+      "Tailwind CSS"
+    ],
+  },
+  {
+    key: "8",
+    category: "React Js",
+    title: "SpeedMaster",
+    type: "Personal Project",
+    imageUrl: "assets/img/portfolio/react/speedmaster/speedmaster1.png",
+    images: [
+      "assets/img/portfolio/react/speedmaster/speedmaster1.png",
+      "assets/img/portfolio/react/speedmaster/speedmaster2.png",
+      "assets/img/portfolio/react/speedmaster/speedmaster3.png",
+ 
+    ],
+    projectURL: "https://speedmasterchallenge.netlify.app/",
+    projectUrlTitle: "Live Demo",
+    description:
+      "Speed Master is an interactive website designed to help you check and improve your typing speed. The platform offers a variety of typing tests and exercises tailored to enhance your accuracy and speed. Track your progress, challenge yourself with different levels of difficulty, and become a faster, more efficient typist with Typing Master.",
+    technologies: [
+      "React Js",
+      "Tailwind CSS"
+    ],
+  },
+  {
+    key: "9",
+    category: "PHP",
+    title: "Travel Companion WebSite",
+    type: "Final Project",
+    imageUrl: "assets/img/portfolio/php/wheretravel/wheretravel.png",
+    images: [
+      "assets/img/portfolio/php/wheretravel/wheretravel.png",
+ 
+    ],
+    projectURL: "https://github.com/cdmoad/WhereTravel",
+    projectUrlTitle: "View on GitHub",
+    description:
+      "This web application serves as a valuable tool for tourists visiting Morocco, assisting them in creating a memorable and enjoyable travel experience by providing a comprehensive guide to the country's most beautiful and desirable destinations, tailored to the individual preferences of each traveler.",
+    technologies: [
+      "HTML5",
+      "PHP",
+      "CSS",
+      "JavaScript",
+      "MySQL"
+          ],
+  },
+  {
+    key: "10",
+    category: "Node Js",
+    title: "Notes Manager",
+    type: "Personal Project",
+    imageUrl: "assets/img/portfolio/node/notes/notes.png",
+    images: [
+      "assets/img/portfolio/node/notes/notes.png",
+ 
+    ],
+    projectURL: "https://github.com/cdmoad/notes_frontend",
+    projectUrlTitle: "View on GitHub",
+    description:
+      "The Notes Manager is a software application that facilitates the storage and categorization of one's ideas in an easily accessible and usable manner. It also includes several additional features, such as the ability to edit, search, and filter the stored notes.",
+    technologies: [
+      "Node Js",
+      "React Js",
+      "Css",
+      "MongoDB"
+    ],
+  },
+
 ];
 var portfolioSwiper;
 document.addEventListener("DOMContentLoaded", function () {
@@ -176,7 +253,7 @@ document.addEventListener("DOMContentLoaded", function () {
     return `
         <div class="col-lg-4 col-md-6 portfolio-item filter-${item.category.toLowerCase()}" id="${item.key}">
           <div class="portfolio-wrap">  
-            <img src="${item.imageUrl}" class="img-fluid" alt="" />
+            <img src="${item.imageUrl}" style="height:160px;width:100%" class="img-fluid" alt="" />
             <div class="portfolio-info">
               <h4>${item.title}</h4>
               <h5>${item.type}</h5>
