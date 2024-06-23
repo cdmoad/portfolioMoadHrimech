@@ -183,6 +183,26 @@ var portfolioData = [
   },
   {
     key: "8",
+    category: "Wordpress",
+    title: "Kasbah Landing Page",
+    type: "Work Project",
+    imageUrl: "assets/img/portfolio/wordpress/kasbah/kasbah1.png",
+    images: [
+      "assets/img/portfolio/wordpress/kasbah/kasbah1.png",
+      "assets/img/portfolio/wordpress/kasbah/kasbah2.png",
+ 
+    ],
+    projectURL: "#",
+    projectUrlTitle: "Coming Soon",
+    description:
+      "Artisan Creations is the perfect landing page for a company specializing in handcrafted goods. Showcasing exquisite craftsmanship, this page highlights the unique and high-quality products made by skilled artisans. With beautiful imagery and compelling stories, Artisan Creations invites visitors to explore and appreciate the artistry behind every piece, making it easy to connect with and purchase from our talented creators.",
+    technologies: [
+      "HTML5",
+      "Wordpress"
+    ],
+  },
+  {
+    key: "9",
     category: "React Js",
     title: "SpeedMaster",
     type: "Personal Project",
@@ -203,7 +223,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "9",
+    key: "10",
     category: "PHP",
     title: "Travel Companion WebSite",
     type: "Final Project",
@@ -225,7 +245,7 @@ var portfolioData = [
           ],
   },
   {
-    key: "10",
+    key: "11",
     category: "Node Js",
     title: "Notes Manager",
     type: "Personal Project",
