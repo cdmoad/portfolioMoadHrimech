@@ -46,8 +46,8 @@
         <ul>
           <li><a class="nav-link active" href="#header">Home</a></li>
           <li><a class="nav-link" href="#about">About</a></li>
-          <li><a class="nav-link" href="#resume">Resume</a></li>
-          <li><a class="nav-link" href="#cv">CV</a></li>
+          <li><a class="nav-link" href="#resume">Career</a></li>
+          <li><a class="nav-link" href="#cv">Resume</a></li>
           <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
@@ -462,8 +462,8 @@
         </div>
         <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
           <div class="icon-box">
-            <i class="ri-bit-coin-line" style="color: #5578ff"></i>
-            <h3>Block chain</h3>
+            <i class="ri-pencil-ruler-2-line" style="color: #5578ff"></i>
+            <h3>Web Design</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
@@ -695,10 +695,11 @@
     <div class="container">
       <div class="section-title">
         <h2>CV</h2>
-        <p>My CV - French & English Versions</p>
+        <p>My Resume - French & English Versions</p>
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+        <div class="download-button" id="download-portfolio-fr">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-file"></i></div>
             <h4>
@@ -709,7 +710,9 @@
             </p>
           </div>
         </div>
+        </div>
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+        <div class="download-button" id="download-portfolio-en">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-file"></i></div>
             <h4>
@@ -720,6 +723,7 @@
             </p>
           </div>
         </div>
+        </div> 
       </div>
     </div>
   </section>
@@ -869,6 +873,26 @@
 
     // Update the age in the HTML
     document.getElementById('ageSpan').innerText = age;
+
+    // Get the CV links
+    document.getElementById('download-portfolio-fr').addEventListener('click', function() {
+      const link = document.createElement('a');
+      link.target = '_blank';
+      link.href = './assets/documents/resume.pdf'; // Path to your PDF file
+      link.download = './assets/documents/resume.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    });
+    document.getElementById('download-portfolio-en').addEventListener('click', function() {
+      const link = document.createElement('a');
+      link.target = '_blank';
+      link.href = './assets/documents/cv.pdf'; // Path to your PDF file
+      link.download = './assets/documents/cv.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    });
 
   </script>
   <!-- Template Main JS File -->
