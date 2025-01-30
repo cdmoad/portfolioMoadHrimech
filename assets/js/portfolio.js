@@ -325,8 +325,8 @@ var portfolioData = [
       "assets/img/portfolio/php/greencrop/img2.png",
  
     ],
-    projectURL: "https://github.com/cdmoad/notes_frontend",
-    projectUrlTitle: "View on GitHub",
+    projectURL: "/",
+    projectUrlTitle: "Coming Soon",
     description:
       "GreenCrop Stock Management is a powerful stock management system designed specifically for agricultural equipment stores. It provides an efficient and user-friendly solution to manage inventory, track sales, and optimize stock levels, ensuring smooth business operations.",
     technologies: [
