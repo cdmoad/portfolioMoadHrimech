@@ -125,7 +125,6 @@ var portfolioData = [
     imageUrl: "assets/img/portfolio/php/mbrouka/mbrouka.png",
     images: [
       "assets/img/portfolio/php/mbrouka/mbrouka.png",
- 
     ],
     projectURL: "https://github.com/cdmoad/Mbrouka",
     projectUrlTitle: "View on GitHub",
@@ -204,6 +203,52 @@ var portfolioData = [
   {
     key: "9",
     category: "React Js",
+    title: "Web Devoplement Services",
+    type: "Personal Project",
+    imageUrl: "assets/img/portfolio/react/devmod/img1.png",
+    images: [
+      "assets/img/portfolio/react/devmod/img1.png",
+      "assets/img/portfolio/react/devmod/img2.png",
+      "assets/img/portfolio/react/devmod/img3.png",
+ 
+    ],
+    projectURL: "https://devmod.netlify.app/",
+    projectUrlTitle: "devmod",
+    description:
+      "DevMod is a modern web development service specializing in creating sleek, responsive, and high-performance websites for developers, businesses, and startups. Whether you need a personal portfolio, business website, or custom web application, DevMod delivers tailored solutions that align with your brand and goals.",
+    technologies: [
+      "React JS",
+      "TailwindCss"
+    ],
+  },
+  {
+    key: "10",
+    category: "React Js",
+    title: "Online Thrift Clothes Marketplace",
+    type: "Personal Project",
+    imageUrl: "assets/img/portfolio/react/lbess/img1.png",
+    images: [
+      "assets/img/portfolio/react/lbess/img1.png",
+      "assets/img/portfolio/react/lbess/img2.png",
+      "assets/img/portfolio/react/lbess/img3.png",
+      "assets/img/portfolio/react/lbess/img4.png",
+      "assets/img/portfolio/react/lbess/img5.png",
+ 
+    ],
+    projectURL: "/",
+    projectUrlTitle: "Coming Soon",
+    description:
+      "LbessShop is a modern thrift clothing marketplace designed to connect sellers and buyers of second-hand fashion in an easy, secure, and stylish way. Built with the MERN stack (MongoDB, Express.js, React, Node.js), it provides a seamless experience for selling and buying pre-loved clothes online.",
+    technologies: [
+      "React JS",
+      "Node Js",
+      "MongoDb",
+      "TailwindCss"
+    ],
+  },
+  {
+    key: "11",
+    category: "React Js",
     title: "SpeedMaster",
     type: "Personal Project",
     imageUrl: "assets/img/portfolio/react/speedmaster/speedmaster1.png",
@@ -223,13 +268,17 @@ var portfolioData = [
     ],
   },
   {
-    key: "10",
+    key: "12",
     category: "PHP",
     title: "Travel Companion WebSite",
     type: "Final Project",
-    imageUrl: "assets/img/portfolio/php/wheretravel/wheretravel.png",
+    imageUrl: "assets/img/portfolio/php/wheretravel/img1.png",
     images: [
+      "assets/img/portfolio/php/wheretravel/img1.png",
       "assets/img/portfolio/php/wheretravel/wheretravel.png",
+      "assets/img/portfolio/php/wheretravel/img2.png",
+      "assets/img/portfolio/php/wheretravel/img3.png",
+      "assets/img/portfolio/php/wheretravel/img4.png",
  
     ],
     projectURL: "https://github.com/cdmoad/WhereTravel",
@@ -245,7 +294,7 @@ var portfolioData = [
           ],
   },
   {
-    key: "11",
+    key: "13",
     category: "Node Js",
     title: "Notes Manager",
     type: "Personal Project",
@@ -263,6 +312,28 @@ var portfolioData = [
       "React Js",
       "Css",
       "MongoDB"
+    ],
+  },
+  {
+    key: "14",
+    category: "php",
+    title: "Stock Management",
+    type: "Internship Project",
+    imageUrl: "assets/img/portfolio/php/greencrop/img1.png",
+    images: [
+      "assets/img/portfolio/php/greencrop/img1.png",
+      "assets/img/portfolio/php/greencrop/img2.png",
+ 
+    ],
+    projectURL: "https://github.com/cdmoad/notes_frontend",
+    projectUrlTitle: "View on GitHub",
+    description:
+      "GreenCrop Stock Management is a powerful stock management system designed specifically for agricultural equipment stores. It provides an efficient and user-friendly solution to manage inventory, track sales, and optimize stock levels, ensuring smooth business operations.",
+    technologies: [
+      "php",
+      "HTML",
+      "Css",
+      "SQL"
     ],
   },
 
