@@ -240,6 +240,6 @@ const frCv = document.querySelector("#cv-fr-link");
 const enCv = document.querySelector("#cv-en-link");
 
 enCv.href =
-  "https://drive.google.com/file/d/1X_V5em6DSOeJDSKgKu1J16RYC8U0I3k7/view";
+  "https://drive.google.com/file/d/1odrgLXDCEyYm-cwTgU_gJuMiuxSHKzZw/view";
 frCv.href =
-  "https://drive.google.com/file/d/1bF98YzIgIohp4H_TdFdBafoZ1uMV2pa5/view";
+  "https://drive.google.com/file/d/1odrgLXDCEyYm-cwTgU_gJuMiuxSHKzZw/view";
