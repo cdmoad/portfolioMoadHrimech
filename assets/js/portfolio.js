@@ -1,7 +1,7 @@
 var portfolioData = [
   {
     key: "0",
-    category: "React Js",
+    category: "React Js/Node js",
     title: "Machine Monotoring System",
     type: "Final Project",
     imageUrl: "assets/img/portfolio/react/siti/siti3.png",
@@ -67,7 +67,7 @@ var portfolioData = [
  
   {
     key: "3",
-    category: "React Js",
+    category: "React Js / Node js",
     title: "Wearit",
     type: "Personal Project",
     imageUrl:  "assets/img/portfolio/react/wearit/wearit1.png",
@@ -83,11 +83,11 @@ var portfolioData = [
     description:
       "Thrift Threads is an online marketplace where individuals can buy and sell pre-loved clothing. Our platform offers a wide variety of stylish, gently-used garments at affordable prices, promoting sustainable fashion. Users can easily list their items for sale, browse through diverse collections, and connect with buyers and sellers. Thrift Threads makes it simple to refresh your wardrobe while giving clothes a second life.",
     technologies: [
-      "Laravel",
       "React Js",
       "Redux",
       "Tailwind CSS",
-      "MySQL"
+      "MySQL",
+      "Node js"
     ],
   },
   
@@ -160,7 +160,7 @@ var portfolioData = [
   },
   {
     key: "7",
-    category: "React Js",
+    category: "React Js / Node Js",
     title: "LcThemes",
     type: "Personal Project",
     imageUrl: "assets/img/portfolio/react/lcthemes/lcthemes1.png",
