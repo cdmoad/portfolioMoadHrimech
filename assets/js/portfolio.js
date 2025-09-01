@@ -19,6 +19,57 @@ var portfolioData = [
   },
   {
     key: "1",
+    category: "Django",
+    title: "IJ-Stats",
+    type: "Work Projet",
+    imageUrl: "assets/img/portfolio/django/ijstats/screen1.png",
+    images: [
+      "assets/img/portfolio/django/ijstats/screen1.png",
+    ],
+    projectURL:
+      "https://stats.informationjeunesse.fr",
+    projectUrlTitle: "Production",
+    description:
+      "Data analysis platform intended for Info-Jeunes CIDJ centers.",
+    technologies: ["HTML5", "Bootstrap", "Django", "Docker"],
+  },
+  {
+    key: "2",
+    category: "Drupal",
+    title: "SIMV",
+    type: "Work Projet",
+    imageUrl: "assets/img/portfolio/drupal/simv/screen1.png",
+    images: [
+      "assets/img/portfolio/drupal/simv/screen1.png",
+      "assets/img/portfolio/drupal/simv/screen2.png",
+      "assets/img/portfolio/drupal/simv/screen3.png",
+    ],
+    projectURL:
+      "https://www.simv.org",
+    projectUrlTitle: "Production",
+    description:
+      "The SIMV website serves as the digital hub of the French Syndicat de l’Industrie du Médicament et Diagnostic Vétérinaires, the national federation representing companies that develop, produce, and market veterinary medicines, diagnostics, devices, and technologies. It offers up-to-date news, regulatory and technical insights, and resources tailored to industry professionals, while also promoting innovation, strategic coordination, and public-private collaboration in animal health across France and Europe.",
+    technologies: ["Drupal", "HTML", "LESS", "Docker"],
+  },
+  {
+    key: "3",
+    category: "Drupal",
+    title: "CIDJ",
+    type: "Work Projet",
+    imageUrl: "assets/img/portfolio/drupal/cidj/screen1.png",
+    images: [
+      "assets/img/portfolio/drupal/cidj/screen1.png",
+      "assets/img/portfolio/drupal/cidj/screen2.png",
+    ],
+    projectURL:
+      "https://www.cidj.com",
+    projectUrlTitle: "Production",
+    description:
+      "The CIDJ website is a national online platform dedicated to young people aged 14–30, providing guidance on studies, jobs, mobility, health, and social engagement. It offers practical resources such as career sheets, guides, and digital tools, while also connecting users to the broader Info Jeunes and Eurodesk networks. With services like live chat, personalized advice, and workshops, the site’s main goal is to deliver free, reliable, and accessible information to support young people in making informed decisions and building their autonomy.",
+    technologies: ["Drupal", "HTML", "LESS", "Docker"],
+  },
+  {
+    key: "4",
     category: "React Js",
     title: "Annuaire Franchise",
     type: "Work Project",
@@ -41,7 +92,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "2",
+    key: "5",
     category: "LARAVEL",
     title: "Creer Mon Entreprise",
     type: "Work Project",
@@ -66,7 +117,7 @@ var portfolioData = [
   },
  
   {
-    key: "3",
+    key: "6",
     category: "React Js / Node js",
     title: "Wearit",
     type: "Personal Project",
@@ -92,7 +143,7 @@ var portfolioData = [
   },
   
   {
-    key: "4",
+    key: "7",
     category: "LARAVEL",
     title: "Votre Assistant Marketing Maroc",
     type: "Work Project",
@@ -118,7 +169,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "5",
+    key: "8",
     category: "PHP",
     title: "Mbrouka Presentation WebSite",
     type: "Final Project",
@@ -139,7 +190,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "6",
+    key: "9",
     category: "React Js",
     title: "HrmAirBag",
     type: "Personal Project",
@@ -159,7 +210,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "7",
+    key: "10",
     category: "React Js / Node Js",
     title: "LcThemes",
     type: "Personal Project",
@@ -181,7 +232,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "8",
+    key: "11",
     category: "Wordpress",
     title: "Kasbah Landing Page",
     type: "Work Project",
@@ -201,7 +252,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "9",
+    key: "12",
     category: "React Js",
     title: "Web Devoplement Services",
     type: "Personal Project",
@@ -222,7 +273,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "10",
+    key: "13",
     category: "React Js",
     title: "Online Thrift Clothes Marketplace",
     type: "Personal Project",
@@ -247,7 +298,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "11",
+    key: "14",
     category: "React Js",
     title: "SpeedMaster",
     type: "Personal Project",
@@ -268,7 +319,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "12",
+    key: "15",
     category: "PHP",
     title: "Travel Companion WebSite",
     type: "Final Project",
@@ -294,7 +345,7 @@ var portfolioData = [
           ],
   },
   {
-    key: "13",
+    key: "16",
     category: "Node Js",
     title: "Notes Manager",
     type: "Personal Project",
@@ -315,7 +366,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "14",
+    key: "17",
     category: "php",
     title: "Stock Management",
     type: "Internship Project",
