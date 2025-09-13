@@ -141,9 +141,24 @@ var portfolioData = [
       "Node js"
     ],
   },
-  
   {
     key: "7",
+    category: "Django",
+    title: "IJCONNECT",
+    type: "Work Project",
+    imageUrl:  "assets/img/portfolio/django/ijconnect/image1.png",
+    images: [
+      "assets/img/portfolio/django/ijconnect/image1.png",
+    ],
+    projectURL: "#",
+    projectUrlTitle: "Coming Soon",
+    description:
+      "An extended website of Ijstats that presents extra features such as messaging ,meetings ...",
+      technologies: ["HTML5", "Bootstrap", "Django","Socket","Matrix", "Docker"],
+  },
+  
+  {
+    key: "8",
     category: "LARAVEL",
     title: "Votre Assistant Marketing Maroc",
     type: "Work Project",
@@ -169,7 +184,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "8",
+    key: "9",
     category: "PHP",
     title: "Mbrouka Presentation WebSite",
     type: "Final Project",
@@ -190,7 +205,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "9",
+    key: "10",
     category: "React Js",
     title: "HrmAirBag",
     type: "Personal Project",
@@ -210,7 +225,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "10",
+    key: "11",
     category: "React Js / Node Js",
     title: "LcThemes",
     type: "Personal Project",
@@ -232,7 +247,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "11",
+    key: "12",
     category: "Wordpress",
     title: "Kasbah Landing Page",
     type: "Work Project",
@@ -252,7 +267,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "12",
+    key: "13",
     category: "React Js",
     title: "Web Devoplement Services",
     type: "Personal Project",
@@ -273,7 +288,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "13",
+    key: "14",
     category: "React Js",
     title: "Online Thrift Clothes Marketplace",
     type: "Personal Project",
@@ -298,7 +313,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "14",
+    key: "15",
     category: "React Js",
     title: "SpeedMaster",
     type: "Personal Project",
@@ -319,7 +334,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "15",
+    key: "16",
     category: "PHP",
     title: "Travel Companion WebSite",
     type: "Final Project",
@@ -345,27 +360,6 @@ var portfolioData = [
           ],
   },
   {
-    key: "16",
-    category: "Node Js",
-    title: "Notes Manager",
-    type: "Personal Project",
-    imageUrl: "assets/img/portfolio/node/notes/notes.png",
-    images: [
-      "assets/img/portfolio/node/notes/notes.png",
- 
-    ],
-    projectURL: "https://github.com/cdmoad/notes_frontend",
-    projectUrlTitle: "View on GitHub",
-    description:
-      "The Notes Manager is a software application that facilitates the storage and categorization of one's ideas in an easily accessible and usable manner. It also includes several additional features, such as the ability to edit, search, and filter the stored notes.",
-    technologies: [
-      "Node Js",
-      "React Js",
-      "Css",
-      "MongoDB"
-    ],
-  },
-  {
     key: "17",
     category: "php",
     title: "Stock Management",
@@ -387,6 +381,27 @@ var portfolioData = [
       "SQL"
     ],
   },
+  // {
+  //   key: "17",
+  //   category: "Node Js",
+  //   title: "Notes Manager",
+  //   type: "Personal Project",
+  //   imageUrl: "assets/img/portfolio/node/notes/notes.png",
+  //   images: [
+  //     "assets/img/portfolio/node/notes/notes.png",
+ 
+  //   ],
+  //   projectURL: "https://github.com/cdmoad/notes_frontend",
+  //   projectUrlTitle: "View on GitHub",
+  //   description:
+  //     "The Notes Manager is a software application that facilitates the storage and categorization of one's ideas in an easily accessible and usable manner. It also includes several additional features, such as the ability to edit, search, and filter the stored notes.",
+  //   technologies: [
+  //     "Node Js",
+  //     "React Js",
+  //     "Css",
+  //     "MongoDB"
+  //   ],
+  // },
 
 ];
 var portfolioSwiper;
