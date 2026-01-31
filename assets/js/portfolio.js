@@ -51,8 +51,23 @@ var portfolioData = [
       "The SIMV website serves as the digital hub of the French Syndicat de l’Industrie du Médicament et Diagnostic Vétérinaires, the national federation representing companies that develop, produce, and market veterinary medicines, diagnostics, devices, and technologies. It offers up-to-date news, regulatory and technical insights, and resources tailored to industry professionals, while also promoting innovation, strategic coordination, and public-private collaboration in animal health across France and Europe.",
     technologies: ["Drupal", "HTML", "LESS", "Docker"],
   },
-  {
+    {
     key: "3",
+    category: "Django",
+    title: "IJCONNECT",
+    type: "Work Project",
+    imageUrl:  "assets/img/portfolio/django/ijconnect/image1.png",
+    images: [
+      "assets/img/portfolio/django/ijconnect/image1.png",
+    ],
+    projectURL: "#",
+    projectUrlTitle: "Coming Soon",
+    description:
+      "An extended website of Ijstats that presents extra features such as messaging ,meetings ...",
+      technologies: ["HTML5", "Bootstrap", "Django","Socket","Matrix", "Docker"],
+  },
+  {
+    key: "4",
     category: "Drupal",
     title: "CIDJ",
     type: "Work Projet",
@@ -68,8 +83,73 @@ var portfolioData = [
       "The CIDJ website is a national online platform dedicated to young people aged 14–30, providing guidance on studies, jobs, mobility, health, and social engagement. It offers practical resources such as career sheets, guides, and digital tools, while also connecting users to the broader Info Jeunes and Eurodesk networks. With services like live chat, personalized advice, and workshops, the site’s main goal is to deliver free, reliable, and accessible information to support young people in making informed decisions and building their autonomy.",
     technologies: ["Drupal", "HTML", "LESS", "Docker"],
   },
+ {
+    key: "5",
+    category: "Drupal",
+    title: "Casseine-et-Marne",
+    type: "Work Projet",
+    imageUrl: "assets/img/portfolio/drupal/cas77/screen1.png",
+    images: [
+      "assets/img/portfolio/drupal/cas77/screen1.png",
+      "assets/img/portfolio/drupal/cas77/screen2.png",
+      "assets/img/portfolio/drupal/cas77/screen3.png",
+    ],
+    projectURL: "https://casseineetmarne.fr/",
+    projectUrlTitle: "Production",
+    description:
+      "Institutional website for a regional social and solidarity organization, presenting services, missions, news, and practical information for beneficiaries, partners, and professionals.",
+    technologies: ["Drupal", "HTML", "LESS", "Docker"],
+  },
   {
-    key: "4",
+    key: "6",
+    category: "Drupal",
+    title: "CGT Énergies 77",
+    type: "Work Projet",
+    imageUrl: "assets/img/portfolio/drupal/cgt/screen1.png",
+    images: [
+      "assets/img/portfolio/drupal/cgt/screen1.png",
+      "assets/img/portfolio/drupal/cgt/screen2.png",
+    ],
+    projectURL: "https://www.cgt-energies77.fr/",
+    projectUrlTitle: "Production",
+    description:
+      "Union website for CGT Énergies Seine-et-Marne, providing news, union actions, publications, and resources for energy sector workers and representatives.",
+    technologies: ["Drupal", "HTML", "LESS", "Docker"],
+  },
+  {
+    key: "7",
+    category: "Drupal",
+    title: "Ut Pictura 18",
+    type: "Work Projet",
+    imageUrl: "assets/img/portfolio/drupal/utpictura18/screen1.png",
+    images: [
+      "assets/img/portfolio/drupal/utpictura18/screen1.png",
+      "assets/img/portfolio/drupal/utpictura18/screen2.png",
+    ],
+    projectURL: "https://utpictura18.univ-amu.fr/",
+    projectUrlTitle: "Production",
+    description:
+      "Academic research project website dedicated to visual culture studies. The platform showcases research programs, publications, events, and collaborative academic resources.",
+    technologies: ["Drupal", "HTML", "LESS", "Docker"],
+  },
+  {
+    key: "8",
+    category: "Drupal",
+    title: "Uniopss",
+    type: "Work Projet",
+    imageUrl: "assets/img/portfolio/drupal/uniopss/screen1.png",
+    images: [
+      "assets/img/portfolio/drupal/uniopss/screen1.png",
+      "assets/img/portfolio/drupal/uniopss/screen2.png",
+    ],
+    projectURL: "https://www.uniopss.asso.fr/",
+    projectUrlTitle: "Production",
+    description:
+      "National reference website for the social and solidarity sector in France, providing institutional content, legal resources, news, and tools for associations and social organizations.",
+    technologies: ["Drupal", "HTML", "LESS", "Docker"],
+  },
+  {
+    key: "9",
     category: "React Js",
     title: "Annuaire Franchise",
     type: "Work Project",
@@ -92,7 +172,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "5",
+    key: "10",
     category: "LARAVEL",
     title: "Creer Mon Entreprise",
     type: "Work Project",
@@ -117,7 +197,7 @@ var portfolioData = [
   },
  
   {
-    key: "6",
+    key: "11",
     category: "React Js / Node js",
     title: "Wearit",
     type: "Personal Project",
@@ -141,24 +221,9 @@ var portfolioData = [
       "Node js"
     ],
   },
-  {
-    key: "7",
-    category: "Django",
-    title: "IJCONNECT",
-    type: "Work Project",
-    imageUrl:  "assets/img/portfolio/django/ijconnect/image1.png",
-    images: [
-      "assets/img/portfolio/django/ijconnect/image1.png",
-    ],
-    projectURL: "#",
-    projectUrlTitle: "Coming Soon",
-    description:
-      "An extended website of Ijstats that presents extra features such as messaging ,meetings ...",
-      technologies: ["HTML5", "Bootstrap", "Django","Socket","Matrix", "Docker"],
-  },
   
   {
-    key: "8",
+    key: "12",
     category: "LARAVEL",
     title: "Votre Assistant Marketing Maroc",
     type: "Work Project",
@@ -184,7 +249,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "9",
+    key: "13",
     category: "PHP",
     title: "Mbrouka Presentation WebSite",
     type: "Final Project",
@@ -205,7 +270,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "10",
+    key: "14",
     category: "React Js",
     title: "HrmAirBag",
     type: "Personal Project",
@@ -225,7 +290,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "11",
+    key: "15",
     category: "React Js / Node Js",
     title: "LcThemes",
     type: "Personal Project",
@@ -247,7 +312,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "12",
+    key: "16",
     category: "Wordpress",
     title: "Kasbah Landing Page",
     type: "Work Project",
@@ -267,7 +332,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "13",
+    key: "17",
     category: "React Js",
     title: "Web Devoplement Services",
     type: "Personal Project",
@@ -288,7 +353,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "14",
+    key: "18",
     category: "React Js",
     title: "Online Thrift Clothes Marketplace",
     type: "Personal Project",
@@ -313,7 +378,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "15",
+    key: "19",
     category: "React Js",
     title: "SpeedMaster",
     type: "Personal Project",
@@ -334,7 +399,7 @@ var portfolioData = [
     ],
   },
   {
-    key: "16",
+    key: "20",
     category: "PHP",
     title: "Travel Companion WebSite",
     type: "Final Project",
@@ -360,7 +425,7 @@ var portfolioData = [
           ],
   },
   {
-    key: "17",
+    key: "21",
     category: "php",
     title: "Stock Management",
     type: "Internship Project",
