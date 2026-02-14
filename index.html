@@ -601,33 +601,47 @@
         <h2>CV</h2>
         <p>My Resume - French & English Versions</p>
       </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-        <div class="download-button" id="download-portfolio-fr">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
-            <h4>
-              <a id="cv-fr-link" target="_blank">Resume French Version</a>
-            </h4>
-            <p>
-              The link allows you to view and download the CV in PDF format.
-            </p>
+
+      <!-- Resume Tabs -->
+      <div class="resume-tabs">
+        <ul class="nav nav-tabs" id="resumeTabs" role="tablist" style="margin-bottom: 30px; justify-content: center;">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="french-tab" data-bs-toggle="tab" data-bs-target="#frenchResume" type="button" role="tab" aria-controls="frenchResume" aria-selected="true">
+              <i class="bx bx-file"></i> French Version
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="english-tab" data-bs-toggle="tab" data-bs-target="#englishResume" type="button" role="tab" aria-controls="englishResume" aria-selected="false">
+              <i class="bx bx-file"></i> English Version
+            </button>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="resumeTabContent">
+          <!-- French Resume Tab -->
+          <div class="tab-pane fade show active" id="frenchResume" role="tabpanel" aria-labelledby="french-tab">
+            <div style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;">
+              <iframe id="french-pdf-viewer" src="./assets/documents/cv.pdf" style="width: 100%; height: 100%; border: none;"></iframe>
+            </div>
+            <div style="text-align: center; margin-top: 20px;">
+              <a href="./assets/documents/cv.pdf" download class="btn btn-primary">
+                <i class="bx bx-download"></i> Download French Version
+              </a>
+            </div>
+          </div>
+
+          <!-- English Resume Tab -->
+          <div class="tab-pane fade" id="englishResume" role="tabpanel" aria-labelledby="english-tab">
+            <div style="height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;">
+              <iframe id="english-pdf-viewer" src="./assets/documents/resume.pdf" style="width: 100%; height: 100%; border: none;"></iframe>
+            </div>
+            <div style="text-align: center; margin-top: 20px;">
+              <a href="./assets/documents/resume.pdf" download class="btn btn-primary">
+                <i class="bx bx-download"></i> Download English Version
+              </a>
+            </div>
           </div>
         </div>
-        </div>
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-        <div class="download-button" id="download-portfolio-en">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
-            <h4>
-              <a id="cv-en-link" target="_blank">Resume English Version</a>
-            </h4>
-            <p>
-              The link allows you to view and download the CV in PDF format.
-            </p>
-          </div>
-        </div>
-        </div> 
       </div>
     </div>
   </section>
@@ -779,26 +793,6 @@
 
     // Update the age in the HTML
     document.getElementById('ageSpan').innerText = age;
-
-    // Get the CV links
-    document.getElementById('download-portfolio-fr').addEventListener('click', function() {
-      const link = document.createElement('a');
-      link.target = '_blank';
-      link.href = './assets/documents/cv.pdf'; // Path to your PDF file
-      link.download = './assets/documents/cv.pdf';
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    });
-    document.getElementById('download-portfolio-en').addEventListener('click', function() {
-      const link = document.createElement('a');
-      link.target = '_blank';
-      link.href = './assets/documents/resume.pdf'; // Path to your PDF file
-      link.download = './assets/documents/resume.pdf';
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    });
 
   </script>
   <!-- Template Main JS File -->
