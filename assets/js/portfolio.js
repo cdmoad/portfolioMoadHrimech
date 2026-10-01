@@ -1,14 +1,31 @@
 var portfolioData = [
   {
+    key: "asivelle",
+    category: "Django",
+    title: "ASIVELLE Collection",
+    type: "E-commerce Project",
+    imageUrl: "/assets/img/portfolio/asivelle/home.png",
+    images: [
+      "/assets/img/portfolio/asivelle/home.png",
+      "/assets/img/portfolio/asivelle/shop.png",
+      "/assets/img/portfolio/asivelle/product.png",
+    ],
+    projectURL: "https://asivelle.ma/",
+    projectUrlTitle: "Visit Website",
+    description:
+      "A bilingual Moroccan e-commerce experience for women's handbags, with product discovery, brand and color filtering, promotional offers, favorites, and nationwide cash-on-delivery ordering.",
+    technologies: ["Django", "Tailwind CSS", "JavaScript"],
+  },
+  {
     key: "0",
     category: "React Js/Node js",
-    title: "Machine Monotoring System",
+    title: "Machine Monitoring System",
     type: "Final Project",
-    imageUrl: "assets/img/portfolio/react/siti/siti3.png",
+    imageUrl: "/assets/img/portfolio/react/siti/siti3.png",
     images: [
-      "assets/img/portfolio/react/siti/siti1.png",
-      "assets/img/portfolio/react/siti/siti2.png",
-      "assets/img/portfolio/react/siti/siti3.png",
+      "/assets/img/portfolio/react/siti/siti1.png",
+      "/assets/img/portfolio/react/siti/siti2.png",
+      "/assets/img/portfolio/react/siti/siti3.png",
     ],
     projectURL:
       "https://siti-dashboard.netlify.app",
@@ -22,9 +39,9 @@ var portfolioData = [
     category: "Django",
     title: "IJ-Stats",
     type: "Work Projet",
-    imageUrl: "assets/img/portfolio/django/ijstats/screen1.png",
+    imageUrl: "/assets/img/portfolio/django/ijstats/screen1.png",
     images: [
-      "assets/img/portfolio/django/ijstats/screen1.png",
+      "/assets/img/portfolio/django/ijstats/screen1.png",
     ],
     projectURL:
       "https://stats.informationjeunesse.fr",
@@ -38,11 +55,11 @@ var portfolioData = [
     category: "Drupal",
     title: "SIMV",
     type: "Work Projet",
-    imageUrl: "assets/img/portfolio/drupal/simv/screen1.png",
+    imageUrl: "/assets/img/portfolio/drupal/simv/screen1.png",
     images: [
-      "assets/img/portfolio/drupal/simv/screen1.png",
-      "assets/img/portfolio/drupal/simv/screen2.png",
-      "assets/img/portfolio/drupal/simv/screen3.png",
+      "/assets/img/portfolio/drupal/simv/screen1.png",
+      "/assets/img/portfolio/drupal/simv/screen2.png",
+      "/assets/img/portfolio/drupal/simv/screen3.png",
     ],
     projectURL:
       "https://www.simv.org",
@@ -56,9 +73,9 @@ var portfolioData = [
     category: "Django",
     title: "IJCONNECT",
     type: "Work Project",
-    imageUrl:  "assets/img/portfolio/django/ijconnect/image1.png",
+    imageUrl:  "/assets/img/portfolio/django/ijconnect/image1.png",
     images: [
-      "assets/img/portfolio/django/ijconnect/image1.png",
+      "/assets/img/portfolio/django/ijconnect/image1.png",
     ],
     projectURL: "#",
     projectUrlTitle: "Coming Soon",
@@ -71,10 +88,10 @@ var portfolioData = [
     category: "Drupal",
     title: "CIDJ",
     type: "Work Projet",
-    imageUrl: "assets/img/portfolio/drupal/cidj/screen1.png",
+    imageUrl: "/assets/img/portfolio/drupal/cidj/screen1.png",
     images: [
-      "assets/img/portfolio/drupal/cidj/screen1.png",
-      "assets/img/portfolio/drupal/cidj/screen2.png",
+      "/assets/img/portfolio/drupal/cidj/screen1.png",
+      "/assets/img/portfolio/drupal/cidj/screen2.png",
     ],
     projectURL:
       "https://www.cidj.com",
@@ -88,11 +105,11 @@ var portfolioData = [
     category: "Drupal",
     title: "Casseine-et-Marne",
     type: "Work Projet",
-    imageUrl: "assets/img/portfolio/drupal/cas77/screen1.png",
+    imageUrl: "/assets/img/portfolio/drupal/cas77/screen1.png",
     images: [
-      "assets/img/portfolio/drupal/cas77/screen1.png",
-      "assets/img/portfolio/drupal/cas77/screen2.png",
-      "assets/img/portfolio/drupal/cas77/screen3.png",
+      "/assets/img/portfolio/drupal/cas77/screen1.png",
+      "/assets/img/portfolio/drupal/cas77/screen2.png",
+      "/assets/img/portfolio/drupal/cas77/screen3.png",
     ],
     projectURL: "https://casseineetmarne.fr/",
     projectUrlTitle: "Production",
@@ -105,10 +122,10 @@ var portfolioData = [
     category: "Drupal",
     title: "CGT Énergies 77",
     type: "Work Projet",
-    imageUrl: "assets/img/portfolio/drupal/cgt/screen1.png",
+    imageUrl: "/assets/img/portfolio/drupal/cgt/screen1.png",
     images: [
-      "assets/img/portfolio/drupal/cgt/screen1.png",
-      "assets/img/portfolio/drupal/cgt/screen2.png",
+      "/assets/img/portfolio/drupal/cgt/screen1.png",
+      "/assets/img/portfolio/drupal/cgt/screen2.png",
     ],
     projectURL: "https://www.cgt-energies77.fr/",
     projectUrlTitle: "Production",
@@ -121,10 +138,10 @@ var portfolioData = [
     category: "Drupal",
     title: "Ut Pictura 18",
     type: "Work Projet",
-    imageUrl: "assets/img/portfolio/drupal/utpictura18/screen1.png",
+    imageUrl: "/assets/img/portfolio/drupal/utpictura18/screen1.png",
     images: [
-      "assets/img/portfolio/drupal/utpictura18/screen1.png",
-      "assets/img/portfolio/drupal/utpictura18/screen2.png",
+      "/assets/img/portfolio/drupal/utpictura18/screen1.png",
+      "/assets/img/portfolio/drupal/utpictura18/screen2.png",
     ],
     projectURL: "https://utpictura18.univ-amu.fr/",
     projectUrlTitle: "Production",
@@ -137,10 +154,10 @@ var portfolioData = [
     category: "Drupal",
     title: "Uniopss",
     type: "Work Projet",
-    imageUrl: "assets/img/portfolio/drupal/uniopss/screen1.png",
+    imageUrl: "/assets/img/portfolio/drupal/uniopss/screen1.png",
     images: [
-      "assets/img/portfolio/drupal/uniopss/screen1.png",
-      "assets/img/portfolio/drupal/uniopss/screen2.png",
+      "/assets/img/portfolio/drupal/uniopss/screen1.png",
+      "/assets/img/portfolio/drupal/uniopss/screen2.png",
     ],
     projectURL: "https://www.uniopss.asso.fr/",
     projectUrlTitle: "Production",
@@ -153,12 +170,12 @@ var portfolioData = [
     category: "React Js",
     title: "Annuaire Franchise",
     type: "Work Project",
-    imageUrl: "assets/img/portfolio/react/franchise/franchise1.png",
+    imageUrl: "/assets/img/portfolio/react/franchise/franchise1.png",
     images: [
-      "assets/img/portfolio/react/franchise/franchise1.png",
-      "assets/img/portfolio/react/franchise/franchise2.png",
-      "assets/img/portfolio/react/franchise/franchise3.png",
-      "assets/img/portfolio/react/franchise/franchise5.png",
+      "/assets/img/portfolio/react/franchise/franchise1.png",
+      "/assets/img/portfolio/react/franchise/franchise2.png",
+      "/assets/img/portfolio/react/franchise/franchise3.png",
+      "/assets/img/portfolio/react/franchise/franchise5.png",
     ],
     projectURL: "https://annuairefranchise.fr/",
     projectUrlTitle: "Live Demo",
@@ -174,12 +191,12 @@ var portfolioData = [
   {
     key: "10",
     category: "LARAVEL",
-    title: "Creer Mon Entreprise",
+    title: "Créer Mon Entreprise",
     type: "Work Project",
-    imageUrl: "assets/img/portfolio/laravel/cme/cme1.png",
+    imageUrl: "/assets/img/portfolio/laravel/cme/cme1.png",
     images: [
-      "assets/img/portfolio/laravel/cme/cme1.png",
-      "assets/img/portfolio/laravel/cme/forms-list.png",
+      "/assets/img/portfolio/laravel/cme/cme1.png",
+      "/assets/img/portfolio/laravel/cme/forms-list.png",
     ],
     projectURL: "https://creermonentreprise.net/",
     projectUrlTitle: "Live demo",
@@ -201,12 +218,12 @@ var portfolioData = [
     category: "React Js / Node js",
     title: "Wearit",
     type: "Personal Project",
-    imageUrl:  "assets/img/portfolio/react/wearit/wearit1.png",
+    imageUrl:  "/assets/img/portfolio/react/wearit/wearit1.png",
     images: [
-      "assets/img/portfolio/react/wearit/wearit1.png",
-      "assets/img/portfolio/react/wearit/wearit2.png",
-      "assets/img/portfolio/react/wearit/wearit3.png",
-      "assets/img/portfolio/react/wearit/wearit4.png",
+      "/assets/img/portfolio/react/wearit/wearit1.png",
+      "/assets/img/portfolio/react/wearit/wearit2.png",
+      "/assets/img/portfolio/react/wearit/wearit3.png",
+      "/assets/img/portfolio/react/wearit/wearit4.png",
  
     ],
     projectURL: "#",
@@ -227,12 +244,12 @@ var portfolioData = [
     category: "LARAVEL",
     title: "Votre Assistant Marketing Maroc",
     type: "Work Project",
-    imageUrl: "assets/img/portfolio/laravel/vamm/hero.png",
+    imageUrl: "/assets/img/portfolio/laravel/vamm/hero.png",
     images: [
-      "assets/img/portfolio/laravel/vamm/main.png",
-      "assets/img/portfolio/laravel/vamm/admin-dashboard.png",
-      "assets/img/portfolio/laravel/vamm/login.png",
-      "assets/img/portfolio/laravel/vamm/admin-statics.png",
+      "/assets/img/portfolio/laravel/vamm/main.png",
+      "/assets/img/portfolio/laravel/vamm/admin-dashboard.png",
+      "/assets/img/portfolio/laravel/vamm/login.png",
+      "/assets/img/portfolio/laravel/vamm/admin-statics.png",
     ],
     projectURL: "#",
     projectUrlTitle: "Coming Soon",
@@ -253,9 +270,9 @@ var portfolioData = [
     category: "PHP",
     title: "Mbrouka Presentation WebSite",
     type: "Final Project",
-    imageUrl: "assets/img/portfolio/php/mbrouka/mbrouka.png",
+    imageUrl: "/assets/img/portfolio/php/mbrouka/mbrouka.png",
     images: [
-      "assets/img/portfolio/php/mbrouka/mbrouka.png",
+      "/assets/img/portfolio/php/mbrouka/mbrouka.png",
     ],
     projectURL: "https://github.com/cdmoad/Mbrouka",
     projectUrlTitle: "View on GitHub",
@@ -274,10 +291,10 @@ var portfolioData = [
     category: "React Js",
     title: "HrmAirBag",
     type: "Personal Project",
-    imageUrl: "assets/img/portfolio/react/airbag/airbag1.png",
+    imageUrl: "/assets/img/portfolio/react/airbag/airbag1.png",
     images: [
-      "assets/img/portfolio/react/airbag/airbag1.png",
-      "assets/img/portfolio/react/airbag/airbag2.png",
+      "/assets/img/portfolio/react/airbag/airbag1.png",
+      "/assets/img/portfolio/react/airbag/airbag2.png",
  
     ],
     projectURL: "https://hrmairbag.netlify.app",
@@ -294,12 +311,12 @@ var portfolioData = [
     category: "React Js / Node Js",
     title: "LcThemes",
     type: "Personal Project",
-    imageUrl: "assets/img/portfolio/react/lcthemes/lcthemes1.png",
+    imageUrl: "/assets/img/portfolio/react/lcthemes/lcthemes1.png",
     images: [
-      "assets/img/portfolio/react/lcthemes/lcthemes1.png",
-      "assets/img/portfolio/react/lcthemes/lcthemes2.png",
-      "assets/img/portfolio/react/lcthemes/lcthemes3.png",
-      "assets/img/portfolio/react/lcthemes/lcthemes4.png",
+      "/assets/img/portfolio/react/lcthemes/lcthemes1.png",
+      "/assets/img/portfolio/react/lcthemes/lcthemes2.png",
+      "/assets/img/portfolio/react/lcthemes/lcthemes3.png",
+      "/assets/img/portfolio/react/lcthemes/lcthemes4.png",
  
     ],
     projectURL: "#",
@@ -316,10 +333,10 @@ var portfolioData = [
     category: "Wordpress",
     title: "Kasbah Landing Page",
     type: "Work Project",
-    imageUrl: "assets/img/portfolio/wordpress/kasbah/kasbah1.png",
+    imageUrl: "/assets/img/portfolio/wordpress/kasbah/kasbah1.png",
     images: [
-      "assets/img/portfolio/wordpress/kasbah/kasbah1.png",
-      "assets/img/portfolio/wordpress/kasbah/kasbah2.png",
+      "/assets/img/portfolio/wordpress/kasbah/kasbah1.png",
+      "/assets/img/portfolio/wordpress/kasbah/kasbah2.png",
  
     ],
     projectURL: "#",
@@ -334,13 +351,13 @@ var portfolioData = [
   {
     key: "17",
     category: "React Js",
-    title: "Web Devoplement Services",
+    title: "Web Development Services",
     type: "Personal Project",
-    imageUrl: "assets/img/portfolio/react/devmod/img1.png",
+    imageUrl: "/assets/img/portfolio/react/devmod/img1.png",
     images: [
-      "assets/img/portfolio/react/devmod/img1.png",
-      "assets/img/portfolio/react/devmod/img2.png",
-      "assets/img/portfolio/react/devmod/img3.png",
+      "/assets/img/portfolio/react/devmod/img1.png",
+      "/assets/img/portfolio/react/devmod/img2.png",
+      "/assets/img/portfolio/react/devmod/img3.png",
  
     ],
     projectURL: "https://devmod.netlify.app/",
@@ -357,13 +374,13 @@ var portfolioData = [
     category: "React Js",
     title: "Online Thrift Clothes Marketplace",
     type: "Personal Project",
-    imageUrl: "assets/img/portfolio/react/lbess/img1.png",
+    imageUrl: "/assets/img/portfolio/react/lbess/img1.png",
     images: [
-      "assets/img/portfolio/react/lbess/img1.png",
-      "assets/img/portfolio/react/lbess/img2.png",
-      "assets/img/portfolio/react/lbess/img3.png",
-      "assets/img/portfolio/react/lbess/img4.png",
-      "assets/img/portfolio/react/lbess/img5.png",
+      "/assets/img/portfolio/react/lbess/img1.png",
+      "/assets/img/portfolio/react/lbess/img2.png",
+      "/assets/img/portfolio/react/lbess/img3.png",
+      "/assets/img/portfolio/react/lbess/img4.png",
+      "/assets/img/portfolio/react/lbess/img5.png",
  
     ],
     projectURL: "/",
@@ -382,11 +399,11 @@ var portfolioData = [
     category: "React Js",
     title: "SpeedMaster",
     type: "Personal Project",
-    imageUrl: "assets/img/portfolio/react/speedmaster/speedmaster1.png",
+    imageUrl: "/assets/img/portfolio/react/speedmaster/speedmaster1.png",
     images: [
-      "assets/img/portfolio/react/speedmaster/speedmaster1.png",
-      "assets/img/portfolio/react/speedmaster/speedmaster2.png",
-      "assets/img/portfolio/react/speedmaster/speedmaster3.png",
+      "/assets/img/portfolio/react/speedmaster/speedmaster1.png",
+      "/assets/img/portfolio/react/speedmaster/speedmaster2.png",
+      "/assets/img/portfolio/react/speedmaster/speedmaster3.png",
  
     ],
     projectURL: "https://speedmasterchallenge.netlify.app/",
@@ -399,40 +416,14 @@ var portfolioData = [
     ],
   },
   {
-    key: "20",
-    category: "PHP",
-    title: "Travel Companion WebSite",
-    type: "Final Project",
-    imageUrl: "assets/img/portfolio/php/wheretravel/img1.png",
-    images: [
-      "assets/img/portfolio/php/wheretravel/img1.png",
-      "assets/img/portfolio/php/wheretravel/wheretravel.png",
-      "assets/img/portfolio/php/wheretravel/img2.png",
-      "assets/img/portfolio/php/wheretravel/img3.png",
-      "assets/img/portfolio/php/wheretravel/img4.png",
- 
-    ],
-    projectURL: "https://github.com/cdmoad/WhereTravel",
-    projectUrlTitle: "View on GitHub",
-    description:
-      "This web application serves as a valuable tool for tourists visiting Morocco, assisting them in creating a memorable and enjoyable travel experience by providing a comprehensive guide to the country's most beautiful and desirable destinations, tailored to the individual preferences of each traveler.",
-    technologies: [
-      "HTML5",
-      "PHP",
-      "CSS",
-      "JavaScript",
-      "MySQL"
-          ],
-  },
-  {
     key: "21",
     category: "php",
     title: "Stock Management",
     type: "Internship Project",
-    imageUrl: "assets/img/portfolio/php/greencrop/img1.png",
+    imageUrl: "/assets/img/portfolio/php/greencrop/img1.png",
     images: [
-      "assets/img/portfolio/php/greencrop/img1.png",
-      "assets/img/portfolio/php/greencrop/img2.png",
+      "/assets/img/portfolio/php/greencrop/img1.png",
+      "/assets/img/portfolio/php/greencrop/img2.png",
  
     ],
     projectURL: "/",
@@ -451,9 +442,9 @@ var portfolioData = [
   //   category: "Node Js",
   //   title: "Notes Manager",
   //   type: "Personal Project",
-  //   imageUrl: "assets/img/portfolio/node/notes/notes.png",
+  //   imageUrl: "/assets/img/portfolio/node/notes/notes.png",
   //   images: [
-  //     "assets/img/portfolio/node/notes/notes.png",
+  //     "/assets/img/portfolio/node/notes/notes.png",
  
   //   ],
   //   projectURL: "https://github.com/cdmoad/notes_frontend",
@@ -470,105 +461,175 @@ var portfolioData = [
 
 ];
 var portfolioSwiper;
+var portfolioPage = 1;
+var activePortfolioFilter = "*";
+var portfolioItemsPerPage = 12;
+var portfolioI18n = window.siteI18n || {
+  isFrench: false,
+  projectDescriptions: {},
+  t: function (value) { return value; }
+};
+
+function getLocalizedProjectDescription(item) {
+  return portfolioI18n.isFrench && portfolioI18n.projectDescriptions[item.key]
+    ? portfolioI18n.projectDescriptions[item.key]
+    : item.description;
+}
+
+function getPortfolioCategory(item) {
+  var category = item.category.toLowerCase();
+  if (category.includes("react")) return "react";
+  if (category.includes("laravel")) return "laravel";
+  if (category.includes("wordpress")) return "wordpress";
+  if (category.includes("django")) return "django";
+  if (category.includes("drupal")) return "drupal";
+  return "php";
+}
+
 document.addEventListener("DOMContentLoaded", function () {
   function createPortfolioItem(item) {
+    var category = getPortfolioCategory(item);
+    var localizedType = portfolioI18n.t(item.type);
     return `
-        <div class="col-lg-4 col-md-6 portfolio-item filter-${item.category.toLowerCase()}" id="${item.key}">
-          <div class="portfolio-wrap">  
-            <img src="${item.imageUrl}" style="height:160px;width:100%" class="img-fluid" alt="" />
+        <div class="col-lg-4 col-md-6 portfolio-item filter-${category}">
+          <div class="portfolio-wrap" role="button" tabindex="0" data-project-key="${item.key}" aria-label="${portfolioI18n.isFrench ? "Voir les détails du projet" : "View project details"}: ${item.title}">
+            <img src="${item.imageUrl}" class="img-fluid" alt="${portfolioI18n.isFrench ? "Aperçu du projet" : "Project preview"} ${item.title}" loading="lazy" />
             <div class="portfolio-info">
               <h4>${item.title}</h4>
-              <h5>${item.type}</h5>
-              <div class="portfolio-links" onclick="showModal(${item.key})">
-                  <i class="bx bx-link" ></i>
-              </div>
+              <h5>${localizedType}</h5>
+              <span class="portfolio-links" aria-hidden="true">
+                <i class="bx bx-link"></i>
+              </span>
             </div>
           </div>
         </div>
       `;
   }
 
-  function populatePortfolio() {
-    var portfolioContainer = document.getElementById("portfolio-container");
-
-    // Display all items in the shuffled array
-    portfolioData.forEach(function (item) {
-      var portfolioItem = createPortfolioItem(item);
-      portfolioContainer.innerHTML += portfolioItem;
+  function getFilteredProjects() {
+    if (activePortfolioFilter === "*") return portfolioData;
+    return portfolioData.filter(function (item) {
+      return `.${"filter-" + getPortfolioCategory(item)}` === activePortfolioFilter;
     });
   }
-  populatePortfolio();
+
+  function renderPagination(totalProjects) {
+    var pagination = document.getElementById("portfolio-pagination");
+    var pageCount = Math.ceil(totalProjects / portfolioItemsPerPage);
+
+    if (pageCount <= 1) {
+      pagination.innerHTML = "";
+      pagination.parentElement.classList.add("is-hidden");
+      return;
+    }
+
+    pagination.parentElement.classList.remove("is-hidden");
+    var controls = `<li><button type="button" data-page="${portfolioPage - 1}" ${portfolioPage === 1 ? "disabled" : ""} aria-label="${portfolioI18n.isFrench ? "Page précédente" : "Previous portfolio page"}"><i class="bi bi-arrow-left"></i></button></li>`;
+
+    for (var page = 1; page <= pageCount; page++) {
+      controls += `<li><button type="button" data-page="${page}" class="${page === portfolioPage ? "active" : ""}" ${page === portfolioPage ? 'aria-current="page"' : ""}>${page}</button></li>`;
+    }
+
+    controls += `<li><button type="button" data-page="${portfolioPage + 1}" ${portfolioPage === pageCount ? "disabled" : ""} aria-label="${portfolioI18n.isFrench ? "Page suivante" : "Next portfolio page"}"><i class="bi bi-arrow-right"></i></button></li>`;
+    pagination.innerHTML = controls;
+  }
+
+  function renderPortfolio() {
+    var portfolioContainer = document.getElementById("portfolio-container");
+    var projects = getFilteredProjects();
+    var start = (portfolioPage - 1) * portfolioItemsPerPage;
+
+    portfolioContainer.innerHTML = projects
+      .slice(start, start + portfolioItemsPerPage)
+      .map(createPortfolioItem)
+      .join("");
+    renderPagination(projects.length);
+  }
+
+  document.querySelectorAll("#portfolio-flters li").forEach(function (filter) {
+    filter.addEventListener("click", function () {
+      document.querySelectorAll("#portfolio-flters li").forEach(function (item) {
+        item.classList.remove("filter-active");
+      });
+      filter.classList.add("filter-active");
+      activePortfolioFilter = filter.getAttribute("data-filter");
+      portfolioPage = 1;
+      renderPortfolio();
+    });
+  });
+
+  document.getElementById("portfolio-pagination").addEventListener("click", function (event) {
+    var button = event.target.closest("button[data-page]");
+    if (!button || button.disabled) return;
+    portfolioPage = Number(button.dataset.page);
+    renderPortfolio();
+    document.getElementById("portfolio").scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+
+  var portfolioContainer = document.getElementById("portfolio-container");
+  portfolioContainer.addEventListener("click", function (event) {
+    var card = event.target.closest("[data-project-key]");
+    if (card) showModal(card.dataset.projectKey);
+  });
+  portfolioContainer.addEventListener("keydown", function (event) {
+    var card = event.target.closest("[data-project-key]");
+    if (!card || (event.key !== "Enter" && event.key !== " ")) return;
+    event.preventDefault();
+    showModal(card.dataset.projectKey);
+  });
+
+  renderPortfolio();
+  var requestedProject = new URLSearchParams(window.location.search).get("project");
+  if (requestedProject) showModal(requestedProject);
 });
 // the logic for the modal
 function showModal(id) {
   var modal = document.querySelector(".portfolio-details");
+  var project = portfolioData.find(function (item) {
+    return String(item.key) === String(id);
+  });
 
-  // Add Animate.css class for fade-in aFnimation
+  if (!project) return;
+
   modal.classList.add("animate__animated", "animate__fadeIn");
-
   modal.style.display = "flex";
+  document.body.classList.add("modal-open");
 
-  setTimeout(() => {
-    // Clear modal content
-    var modalTitle = document.querySelector(".portfolio-title");
-    modalTitle.innerHTML = "";
+  modal.querySelector(".portfolio-title").textContent = project.title;
+  modal.querySelector(".portfolio-info ul").innerHTML = `
+    <li><strong>${portfolioI18n.t("Category")}</strong>: ${project.category}</li>
+    <li><strong>${portfolioI18n.t("Type")}</strong>: ${portfolioI18n.t(project.type)}</li>
+    <li><strong>${portfolioI18n.t("Project URL")}</strong>: <a target="_blank" rel="noreferrer" href="${project.projectURL}">${portfolioI18n.t(project.projectUrlTitle)}</a></li>
+  `;
+  modal.querySelector(".description").innerText = getLocalizedProjectDescription(project);
 
-    var projectInfo = document.querySelector(".portfolio-info ul");
-    projectInfo.innerHTML = "";
+  var technologies = document.querySelector("#portfolio-used-technologies");
+  technologies.innerHTML = "";
+  project.technologies.forEach(function (item) {
+    var technology = document.createElement("span");
+    technology.innerText = item;
+    technologies.appendChild(technology);
+  });
 
-    var projectDescription = document.querySelector(".description");
-    projectDescription.innerText = "";
+  var modalImageList = document.querySelector("#portfolio-images");
+  modalImageList.innerHTML = "";
+  project.images.forEach(function (item) {
+    var swiperSlide = document.createElement("div");
+    swiperSlide.className = "swiper-slide";
+    var image = document.createElement("img");
+    image.src = item;
+    image.alt = portfolioI18n.isFrench
+      ? `Capture d’écran du projet ${project.title}`
+      : `${project.title} screenshot`;
+    image.style.maxWidth = "100%";
+    image.style.maxHeight = "100%";
+    image.style.display = "block";
+    image.style.margin = "auto";
+    swiperSlide.appendChild(image);
+    modalImageList.appendChild(swiperSlide);
+  });
 
-    var modalImageList = document.querySelector("#portfolio-images");
-    modalImageList.innerHTML = "";
-
-    var technologies = document.querySelector("#portfolio-used-technologies");
-    technologies.innerHTML = "";
-    // insert the data into the modal
-    var modalTitle = document.querySelector(".portfolio-title");
-    modalTitle.innerHTML = portfolioData[id].title;
-    var projectInfo = document.querySelector(".portfolio-info ul");
-    projectInfo.innerHTML = `
-    <li><strong>Category</strong>: ${portfolioData[id].category}</li>
-    <li><strong>Type</strong>: ${portfolioData[id].type}</li>
-    <li><strong>Project URL</strong>: <a target="_blank" href="${portfolioData[id].projectURL}" >${portfolioData[id].projectUrlTitle}</a></li>
-    `;
-    // Update project description
-    var projectDescription = document.querySelector(".description");
-    projectDescription.innerText = portfolioData[id].description;
-    // used technologies
-    var technologies = document.querySelector("#portfolio-used-technologies");
-    technologies.innerHTML = "";
-    portfolioData[id].technologies.forEach(function (item) {
-      var technology = document.createElement("span");
-      technology.innerText = item;
-      technologies.appendChild(technology);
-    });
-    // set the images to the src of the modal image list
-    var modalImageList = document.querySelector("#portfolio-images");
-
-    portfolioData[id].images.forEach(function (item) {
-      var swiperSlide = document.createElement("div");
-      swiperSlide.className = "swiper-slide";
-
-      var image = document.createElement("img");
-      image.src = item;
-
-      // Set maximum width and height
-      image.style.maxWidth = "100%";
-      image.style.maxHeight = "100%";
-
-      // Center the image within the container
-      image.style.display = "block";
-      image.style.margin = "auto";
-
-      swiperSlide.appendChild(image);
-      modalImageList.appendChild(swiperSlide);
-    });
-  }, 500);
-  /**
-   * Portfolio details slider
-   */
+  if (portfolioSwiper) portfolioSwiper.destroy(true, true);
   portfolioSwiper = new Swiper(".portfolio-details-slider", {
     speed: 400,
     loop: true,
@@ -602,5 +663,19 @@ function closeModal() {
     // Remove both fade-in and fade-out classes to prepare for the next showing
     modal.classList.remove("animate__fadeIn", "animate__fadeOut");
   }, 500);
-  portfolioSwiper.destroy();
+  document.body.classList.remove("modal-open");
+  if (portfolioSwiper) {
+    portfolioSwiper.destroy(true, true);
+    portfolioSwiper = null;
+  }
 }
+
+document.addEventListener("click", function (event) {
+  var modal = document.getElementById("portfolio-details");
+  if (event.target === modal) closeModal();
+});
+
+document.addEventListener("keydown", function (event) {
+  var modal = document.getElementById("portfolio-details");
+  if (event.key === "Escape" && modal.style.display === "flex") closeModal();
+});
