@@ -212,7 +212,38 @@ var portfolioData = [
       "MySQL",
     ],
   },
- 
+  {
+    key: "myradio",
+    category: "React Js",
+    title: "MyRadio",
+    type: "Personal Project",
+    imageUrl: "/assets/img/portfolio/myradio/home.png",
+    images: [
+      "/assets/img/portfolio/myradio/home.png",
+      "/assets/img/portfolio/myradio/discover.png",
+    ],
+    projectURL: "https://162.35.180.18:9999/",
+    projectUrlTitle: "Live Demo",
+    description:
+      "A responsive live-radio experience for discovering stations from Morocco and around the world, with country and category filters, search, favorites, recently played stations, persistent volume, and browser media controls—no account required.",
+    technologies: ["React", "TypeScript", "Vite", "Radio Browser API", "Docker", "Nginx"],
+  },
+  {
+    key: "mizan",
+    category: "Django",
+    title: "Mizan Finance",
+    type: "Personal Project",
+    imageUrl: "/assets/img/portfolio/mizan/dashboard.png",
+    images: [
+      "/assets/img/portfolio/mizan/dashboard.png",
+      "/assets/img/portfolio/mizan/statistics.png",
+    ],
+    projectURL: "https://162.35.180.18:8055/",
+    projectUrlTitle: "Private Deployment",
+    description:
+      "A private, mobile-first recurring expense tracker with monthly budgets, payment history, calendar and spending insights, CSV export, Web Push reminders, dark mode, and installable PWA support.",
+    technologies: ["Django", "SQLite", "JavaScript", "Web Push", "PWA", "Docker", "Nginx"],
+  },
   {
     key: "11",
     category: "React Js / Node js",

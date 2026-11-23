@@ -117,6 +117,7 @@
     "View on GitHub": "Voir sur GitHub",
     "Coming Soon": "Bientôt disponible",
     "Production": "En production",
+    "Private Deployment": "Déploiement privé",
     "Category": "Catégorie",
     "Type": "Type",
     "Project URL": "Lien du projet"
@@ -128,6 +129,8 @@
     "1": "Une plateforme d’analyse de données destinée aux structures Info Jeunes du CIDJ.",
     "2": "Le portail institutionnel du SIMV, réunissant actualités, ressources réglementaires et contenus professionnels dédiés à la santé animale en France et en Europe.",
     "3": "Une extension d’IJ-Stats intégrant notamment la messagerie, les réunions et des fonctions collaboratives.",
+    myradio: "Une expérience de radio en direct responsive pour découvrir des stations du Maroc et du monde entier, avec filtres par pays et catégorie, recherche, favoris, historique d’écoute, volume mémorisé et commandes multimédias du navigateur, sans compte.",
+    mizan: "Un gestionnaire privé et mobile-first des dépenses récurrentes avec budgets mensuels, historique des paiements, calendrier, statistiques, export CSV, rappels Web Push, mode sombre et prise en charge PWA.",
     "4": "La plateforme nationale du CIDJ destinée aux jeunes de 14 à 30 ans, avec orientation, ressources pratiques, accompagnement et outils numériques.",
     "5": "Un site institutionnel régional présentant services, missions, actualités et informations pratiques aux bénéficiaires et partenaires.",
     "6": "Le site syndical de CGT Énergies 77, regroupant actualités, actions, publications et ressources pour les salariés du secteur.",
@@ -194,11 +197,11 @@
   function updateSeo() {
     const canonicalUrl = isFrench ? `${siteUrl}/fr/` : `${siteUrl}/`;
     const title = isFrench
-      ? "Moad Hrimech | Développeur Backend Django & Full Stack"
-      : "Moad Hrimech | Django Backend & Full Stack Developer";
+      ? "Développeur Django Freelance au Maroc | Moad Hrimech"
+      : "Freelance Django Developer in Morocco | Moad Hrimech";
     const description = isFrench
-      ? "Portfolio de Moad Hrimech, développeur backend Django et Full Stack à Casablanca, spécialisé en API, plateformes de données et applications web évolutives."
-      : "Portfolio of Moad Hrimech, a Django backend and full stack developer in Casablanca building APIs, data platforms, and scalable web applications.";
+      ? "Engagez Moad Hrimech, développeur Django freelance au Maroc, pour vos API, intégrations, backends évolutifs et applications web complètes."
+      : "Hire Moad Hrimech, a freelance Django and full stack developer in Morocco, for APIs, integrations, scalable backends, and complete web applications.";
 
     document.title = title;
     document.documentElement.lang = language;
@@ -208,19 +211,27 @@
     setMeta('meta[property="og:title"]', title);
     setMeta('meta[property="og:description"]', description);
     setMeta('meta[property="og:locale"]', isFrench ? "fr_FR" : "en_US");
-    setMeta('meta[property="twitter:url"]', canonicalUrl);
-    setMeta('meta[property="twitter:title"]', title);
-    setMeta('meta[property="twitter:description"]', description);
+    setMeta('meta[name="twitter:url"]', canonicalUrl);
+    setMeta('meta[name="twitter:title"]', title);
+    setMeta('meta[name="twitter:description"]', description);
 
     if (isFrench) {
       const personSchema = document.getElementById("person-schema");
+      const profileSchema = document.getElementById("profile-schema");
       const websiteSchema = document.getElementById("website-schema");
       if (personSchema) {
         const person = JSON.parse(personSchema.textContent);
         person.url = canonicalUrl;
-        person.description = "Développeur backend Django et Full Stack spécialisé dans les API fiables et les applications web évolutives";
-        person.jobTitle = "Développeur backend Django";
+        person.description = "Développeur Django freelance au Maroc spécialisé dans les API, intégrations, backends évolutifs et applications web complètes";
+        person.jobTitle = "Développeur backend Django freelance";
         personSchema.textContent = JSON.stringify(person);
+      }
+      if (profileSchema) {
+        const profile = JSON.parse(profileSchema.textContent);
+        profile.url = canonicalUrl;
+        profile.name = title;
+        profile.description = description;
+        profileSchema.textContent = JSON.stringify(profile);
       }
       if (websiteSchema) {
         const website = JSON.parse(websiteSchema.textContent);
