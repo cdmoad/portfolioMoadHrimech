@@ -197,8 +197,8 @@
   function updateSeo() {
     const canonicalUrl = isFrench ? `${siteUrl}/fr/` : `${siteUrl}/`;
     const title = isFrench
-      ? "Développeur Django Freelance au Maroc | Moad Hrimech"
-      : "Freelance Django Developer in Morocco | Moad Hrimech";
+      ? "Moad Hrimech | Développeur Backend Django & Full Stack"
+      : "Moad Hrimech | Django Backend & Full Stack Developer";
     const description = isFrench
       ? "Engagez Moad Hrimech, développeur Django freelance au Maroc, pour vos API, intégrations, backends évolutifs et applications web complètes."
       : "Hire Moad Hrimech, a freelance Django and full stack developer in Morocco, for APIs, integrations, scalable backends, and complete web applications.";
