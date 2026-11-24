@@ -245,6 +245,22 @@ var portfolioData = [
     technologies: ["Django", "SQLite", "JavaScript", "Web Push", "PWA", "Docker", "Nginx"],
   },
   {
+    key: "netguard",
+    category: "Django",
+    title: "NetGuard",
+    type: "Personal Project",
+    imageUrl: "/assets/img/portfolio/netguard/overview.png",
+    images: [
+      "/assets/img/portfolio/netguard/overview.png",
+      "/assets/img/portfolio/netguard/network-mobile.png",
+    ],
+    projectURL: "#",
+    projectUrlTitle: "Local Only",
+    description:
+      "A localhost-only Linux network monitoring dashboard for inspecting interfaces, routes, DNS, traffic, listening sockets, system services, and nearby devices. It also compares current network settings with a saved baseline and records security observations without packet capture or intrusive scanning.",
+    technologies: ["Django", "Python", "SQLite", "JavaScript", "Linux", "systemd"],
+  },
+  {
     key: "11",
     category: "React Js / Node js",
     title: "Wearit",

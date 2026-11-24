@@ -118,6 +118,7 @@
     "Coming Soon": "Bientôt disponible",
     "Production": "En production",
     "Private Deployment": "Déploiement privé",
+    "Local Only": "Accès local uniquement",
     "Category": "Catégorie",
     "Type": "Type",
     "Project URL": "Lien du projet"
@@ -133,6 +134,7 @@
     "3": "Une extension d’IJ-Stats intégrant notamment la messagerie, les réunions et des fonctions collaboratives.",
     myradio: "Une expérience de radio en direct responsive pour découvrir des stations du Maroc et du monde entier, avec filtres par pays et catégorie, recherche, favoris, historique d’écoute, volume mémorisé et commandes multimédias du navigateur, sans compte.",
     mizan: "Un gestionnaire privé et mobile-first des dépenses récurrentes avec budgets mensuels, historique des paiements, calendrier, statistiques, export CSV, rappels Web Push, mode sombre et prise en charge PWA.",
+    netguard: "Un tableau de bord Django accessible uniquement en local pour surveiller le réseau Linux : interfaces, routes, DNS, trafic, ports en écoute, services système et appareils à proximité. Il compare aussi la configuration actuelle à une référence enregistrée et consigne les observations de sécurité sans capture de paquets ni analyse intrusive.",
     "4": "La plateforme nationale du CIDJ destinée aux jeunes de 14 à 30 ans, avec orientation, ressources pratiques, accompagnement et outils numériques.",
     "5": "Un site institutionnel régional présentant services, missions, actualités et informations pratiques aux bénéficiaires et partenaires.",
     "6": "Le site syndical de CGT Énergies 77, regroupant actualités, actions, publications et ressources pour les salariés du secteur.",
