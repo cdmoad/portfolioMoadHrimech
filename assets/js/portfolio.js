@@ -447,6 +447,22 @@ var portfolioData = [
     ],
   },
   {
+    key: "netpulse",
+    category: "JavaScript",
+    title: "NetPulse",
+    type: "Personal Project",
+    imageUrl: "/assets/img/portfolio/netpulse/dashboard.png?v=2",
+    images: [
+      "/assets/img/portfolio/netpulse/dashboard.png?v=2",
+      "/assets/img/portfolio/netpulse/popup.png?v=2",
+    ],
+    projectURL: "https://github.com/cdmoad/netPluse",
+    projectUrlTitle: "View on GitHub",
+    description:
+      "A private, local-first Chrome extension for monitoring network health, latency, outages, throughput, and data usage. It includes a detailed dashboard, configurable speed tests, history exports, and an optional Ubuntu helper for device-wide traffic metrics.",
+    technologies: ["JavaScript", "Chrome Extensions API", "Manifest V3", "Python", "Native Messaging"],
+  },
+  {
     key: "21",
     category: "php",
     title: "Stock Management",
