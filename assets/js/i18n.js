@@ -125,6 +125,7 @@
 
   const frenchProjectDescriptions = {
     asivelle: "Une expérience e-commerce bilingue dédiée aux sacs pour femme au Maroc, avec découverte des produits, filtres par marque et couleur, offres, favoris et paiement à la livraison.",
+    quietblock: "Un bloqueur de publicités léger en Manifest V3 pour Chrome et les navigateurs Chromium, avec trois niveaux de filtrage, des réglages par site, des statistiques locales et des rapports de dysfonctionnement conservés uniquement sur l’appareil.",
     "0": "Un système de supervision industrielle avec tableau de bord temps réel, indicateurs de performance et chronologie pour faciliter l’analyse et la prise de décision.",
     "1": "Une plateforme d’analyse de données destinée aux structures Info Jeunes du CIDJ.",
     "2": "Le portail institutionnel du SIMV, réunissant actualités, ressources réglementaires et contenus professionnels dédiés à la santé animale en France et en Europe.",

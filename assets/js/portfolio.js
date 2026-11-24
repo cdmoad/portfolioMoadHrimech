@@ -468,6 +468,21 @@ var portfolioData = [
       "SQL"
     ],
   },
+  {
+    key: "quietblock",
+    category: "JavaScript",
+    title: "QuietBlock",
+    type: "Personal Project",
+    imageUrl: "/assets/img/portfolio/quietblock/popup.png",
+    images: [
+      "/assets/img/portfolio/quietblock/popup.png",
+    ],
+    projectURL: "https://github.com/cdmoad/quiteblocker",
+    projectUrlTitle: "View on GitHub",
+    description:
+      "A lightweight Manifest V3 ad blocker for Chrome and Chromium browsers, with Stealth, Balanced, and Aggressive filtering modes, per-site controls, local statistics, and privacy-friendly broken-site reports stored only on the device.",
+    technologies: ["JavaScript", "Chrome Extensions API", "Manifest V3", "Declarative Net Request"],
+  },
   // {
   //   key: "17",
   //   category: "Node Js",
@@ -509,6 +524,7 @@ function getLocalizedProjectDescription(item) {
 
 function getPortfolioCategory(item) {
   var category = item.category.toLowerCase();
+  if (category.includes("javascript")) return "javascript";
   if (category.includes("react")) return "react";
   if (category.includes("laravel")) return "laravel";
   if (category.includes("wordpress")) return "wordpress";
