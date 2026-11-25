@@ -127,6 +127,7 @@
   const frenchProjectDescriptions = {
     asivelle: "Une expérience e-commerce bilingue dédiée aux sacs pour femme au Maroc, avec découverte des produits, filtres par marque et couleur, offres, favoris et paiement à la livraison.",
     netpulse: "Une extension Chrome privée et locale pour surveiller la qualité du réseau, la latence, les coupures, le débit et la consommation de données, avec tableau de bord, tests configurables, exports et assistant Ubuntu optionnel.",
+    imageintel: "Un tableau de bord local d’analyse d’images qui extrait les métadonnées, les informations GPS et de l’appareil photo, le texte par OCR, les codes QR, les couleurs, les mesures de qualité et les empreintes d’image. Il propose la détection des doublons, des copies nettoyées, des rapports JSON/PDF et une détection d’objets locale optionnelle.",
     quietblock: "Un bloqueur de publicités léger en Manifest V3 pour Chrome et les navigateurs Chromium, avec trois niveaux de filtrage, des réglages par site, des statistiques locales et des rapports de dysfonctionnement conservés uniquement sur l’appareil.",
     "0": "Un système de supervision industrielle avec tableau de bord temps réel, indicateurs de performance et chronologie pour faciliter l’analyse et la prise de décision.",
     "1": "Une plateforme d’analyse de données destinée aux structures Info Jeunes du CIDJ.",

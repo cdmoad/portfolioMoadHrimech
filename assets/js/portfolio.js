@@ -479,6 +479,19 @@ var portfolioData = [
     technologies: ["JavaScript", "Chrome Extensions API", "Manifest V3", "Python", "Native Messaging"],
   },
   {
+    key: "imageintel",
+    category: "Django",
+    title: "ImageIntel",
+    type: "Personal Project",
+    imageUrl: "/assets/img/portfolio/imageintel/upload.png",
+    images: ["/assets/img/portfolio/imageintel/upload.png"],
+    projectURL: "https://github.com/cdmoad/imageDataExtracter",
+    projectUrlTitle: "View on GitHub",
+    description:
+      "A local image inspection dashboard that extracts metadata, camera and GPS details, OCR text, QR codes, color and quality metrics, and image hashes. It supports duplicate matching, cleaned copies, and JSON/PDF reports, with optional local object detection.",
+    technologies: ["Django", "Python", "JavaScript", "SQLite", "OCR"],
+  },
+  {
     key: "21",
     category: "php",
     title: "Stock Management",
